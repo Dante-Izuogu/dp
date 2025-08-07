@@ -1,0 +1,158 @@
+.affiliates-bg {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.affiliates-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.affiliates-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.affiliates-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: #22223b;
+  margin-bottom: 2rem;
+  letter-spacing: -1px;
+}
+
+.affiliate-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.benefits-section h3,
+.how-to-apply h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 1rem;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 1rem;
+  border-left: 4px solid #10b981;
+}
+
+.benefit-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.benefit-text strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #22223b;
+  margin-bottom: 0.5rem;
+}
+
+.benefit-text p {
+  color: #4b5563;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.how-to-apply p {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.apply-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #eb2525 0%, #f83838 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(235, 37, 37, 0.3);
+}
+
+.apply-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(235, 37, 37, 0.4);
+}
+
+.apply-note {
+  font-size: 0.95rem;
+  color: #6b7280;
+  font-style: italic;
+  text-align: center;
+}
+
+.back-link {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+}
+
+.back-btn {
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.back-btn:hover {
+  color: #eb2525;
+}
+
+@media (max-width: 600px) {
+  .affiliates-card {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .affiliates-title {
+    font-size: 2rem;
+  }
+  
+  .benefit-item {
+    flex-direction: column;
+    text-align: center;
+  }
+}

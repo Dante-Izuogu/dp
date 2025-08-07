@@ -1,0 +1,158 @@
+.contact-bg {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.contact-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.1);
+  padding: 2.5rem;
+  max-width: 700px;
+  width: 100%;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: #22223b;
+  margin-bottom: 2rem;
+  letter-spacing: -1px;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 1rem;
+  border-left: 4px solid #eb2525;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.whatsapp-item {
+  border-left-color: #25D366;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.contact-details {
+  flex: 1;
+}
+
+.contact-details strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #22223b;
+  margin-bottom: 0.5rem;
+}
+
+.contact-link {
+  color: #eb2525;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: #d91f1f;
+  text-decoration: underline;
+}
+
+.whatsapp-link {
+  color: #25D366;
+}
+
+.whatsapp-link:hover {
+  color: #1da851;
+}
+
+.response-time {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.response-time p {
+  color: #1e40af;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.back-link {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+}
+
+.back-btn {
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.back-btn:hover {
+  color: #eb2525;
+}
+
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+  
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .contact-details strong {
+    margin-bottom: 0.25rem;
+  }
+}

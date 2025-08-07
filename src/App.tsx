@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './App.css';
 
 const testimonials = [
@@ -39,8 +40,8 @@ function App() {
       <nav className="navbar">
         <div className="logo">The Gym Cheat Sheet</div>
         <div className="nav-links">
-          <a href="#affiliates">Affiliates</a>
-          <a href="#contact">Contact</a>
+          <Link to="/affiliates">Affiliates</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </nav>
       <div className="main-content">
@@ -54,13 +55,13 @@ function App() {
               <div className="option-title">General Cheat Sheet</div>
               <div className="option-price">£10</div>
               <div className="option-desc">Quick and Easy Instant Download as a PDF</div>
-              <button className="pay-btn" onClick={() => window.open('https://monzo.com/pay/placeholder-general', '_blank')}>Buy Now</button>
+              <Link to="/payment?type=general" className="pay-btn">Buy Now</Link>
             </div>
             <div className="option-card">
               <div className="option-title">Personalised Cheat Sheet</div>
               <div className="option-price">£15</div>
               <div className="option-desc">Fill in a form, cheat sheet delivered within 24h</div>
-              <button className="pay-btn" onClick={() => window.open('https://monzo.com/pay/placeholder-personal', '_blank')}>Get Yours</button>
+              <Link to="/payment?type=personalised" className="pay-btn">Get Yours</Link>
             </div>
           </div>
         </section>

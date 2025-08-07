@@ -118,6 +118,9 @@ body, #root, .main-bg {
   text-align: center;
 }
 .pay-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
   padding: 1.1rem 2.2rem;
   font-size: 1.25rem;
   font-weight: 700;
@@ -127,7 +130,7 @@ body, #root, .main-bg {
   color: #fff;
   cursor: pointer;
   margin-bottom: 0.3rem;
-  box-shadow: 0 2px 8px rgba(37,99,235,0.09);
+  box-shadow: 0 2px 8px rgba(235,37,37,0.09);
   transition: background 0.2s, transform 0.1s;
   width: 100%;
   max-width: 280px;
