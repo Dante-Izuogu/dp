@@ -335,6 +335,20 @@ const Form = () => {
             </button>
           </form>
           
+          <div className="payment-warning-notice">
+            <div className="warning-icon">⚠️</div>
+            <div className="warning-content">
+              <p>
+                <strong>Important:</strong> This form is for the personalised cheat sheet service. 
+                Your form will only be processed after payment is completed. Forms submitted 
+                without payment will not receive a response.
+              </p>
+              <Link to="/payment?type=personalised" className="payment-link">
+                Complete Payment (£15) →
+              </Link>
+            </div>
+          </div>
+          
           <div className="back-link">
             <Link to="/" className="back-btn">← Back to Home</Link>
           </div>
