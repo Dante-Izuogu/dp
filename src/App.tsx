@@ -55,13 +55,13 @@ function App() {
             <div className="option-card">
               <div className="option-title">General Cheat Sheet</div>
               <div className="option-price">£10</div>
-              <div className="option-desc">Quick and Easy Instant Download as a PDF</div>
+              <div className="option-desc">PDF sent by mail within 12 hours of purchase</div>
               <Link to="/payment?type=general" className="pay-btn">Buy Now</Link>
             </div>
             <div className="option-card">
               <div className="option-title">Personalised Cheat Sheet</div>
               <div className="option-price">£15</div>
-              <div className="option-desc">Fill in a form, cheat sheet delivered within 24h</div>
+              <div className="option-desc">Fill in a form, cheat sheet delivered within 24 hours</div>
               <Link to="/payment?type=personalised" className="pay-btn">Get Yours</Link>
             </div>
           </div>
