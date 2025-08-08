@@ -54,6 +54,24 @@ body, #root, .main-bg {
   color: #0ea5e9;
 }
 
+/* Form nav button styling */
+.form-nav-btn {
+  background: linear-gradient(90deg, #eb2525 0%, #f83838 100%) !important;
+  color: white !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.5rem !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+  box-shadow: 0 2px 8px rgba(235, 37, 37, 0.2) !important;
+}
+
+.form-nav-btn:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 16px rgba(235, 37, 37, 0.3) !important;
+  color: white !important;
+}
+
 .header-section {
   max-width: 900px;
   margin: 2.5rem auto 1.5rem auto;

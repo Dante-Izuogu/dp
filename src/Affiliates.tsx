@@ -9,6 +9,7 @@ const Affiliates = () => {
         <div className="nav-links">
           <Link to="/affiliates">Affiliates</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/form" className="form-nav-btn">Form</Link>
         </div>
       </nav>
       
@@ -32,7 +33,7 @@ const Affiliates = () => {
                 <div className="benefit-icon">💰</div>
                 <div className="benefit-text">
                   <strong>Percentage of Each Sale</strong>
-                  <p>Earn a competitive percentage from every successful referral you make.</p>
+                  <p>Earn up to 50% of the sale from every successful referral you make.</p>
                 </div>
               </div>
             </div>

@@ -9,6 +9,7 @@ const Contact = () => {
         <div className="nav-links">
           <Link to="/affiliates">Affiliates</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/form" className="form-nav-btn">Form</Link>
         </div>
       </nav>
       

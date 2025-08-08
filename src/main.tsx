@@ -6,6 +6,7 @@ import App from './App.tsx'
 import PaymentInstructions from './PaymentInstructions.tsx'
 import Affiliates from './Affiliates.tsx'
 import Contact from './Contact.tsx'
+import Form from './Form.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/payment" element={<PaymentInstructions />} />
         <Route path="/affiliates" element={<Affiliates />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

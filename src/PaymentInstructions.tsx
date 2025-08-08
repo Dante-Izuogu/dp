@@ -8,7 +8,7 @@ const PaymentInstructions = () => {
   
   const paymentLink = isPersonalised 
     ? 'https://monzo.me/danteizuogu/15.00?d=Personalised+Cheat+Sheet&h=civblQ'
-    : 'https://monzo.me/danteizuogu/10.00?d=ENTER+EMAIL+ADDRESS+AS+REFERENCE&h=civblQ';
+    : 'https://monzo.me/danteizuogu/10.00?d=General+Cheat+Sheet&h=civblQ';
 
   const productName = isPersonalised ? 'Personalised Cheat Sheet' : 'General Cheat Sheet';
   const price = isPersonalised ? '£15' : '£10';
@@ -20,6 +20,7 @@ const PaymentInstructions = () => {
         <div className="nav-links">
           <Link to="/affiliates">Affiliates</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/form" className="form-nav-btn">Form</Link>
         </div>
       </nav>
       
