@@ -10,7 +10,7 @@ import Form from './Form.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/dp">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/payment" element={<PaymentInstructions />} />
